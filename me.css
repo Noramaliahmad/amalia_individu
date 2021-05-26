@@ -1,0 +1,80 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+body{
+	background-image: url("me2.jpg");
+	height: 600px;
+	background-position: center;
+	background-size: cover;
+    
+}
+
+ul{
+	float:center;
+	list-style-type: none;
+    margin-top: 25px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 2px solid Tomato;
+	font-family:poppins;
+	font-size: 20px;
+	transition: 0.7s ease;
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+
+.title{
+	position: absolute;
+	top: 50%;
+	right: 25%;
+	transform: translate(-50%,-50%);
+}
+
+.title h1{
+	color: #black;
+	font-size: 70px;
+}
+
+
+
+<div class="main">
+	     </div>
+		 <ul>
+		     <li class="active"><a href="index.html">HOME</a></li>
+			 <li><a href="me.html">ME</a></li>
+			 <li><a href="my pics.html">MY PICS</a></li>
+			 <li><a href="routine.html">ROUTINE</a></li>
+			 <li><a href="motivation.html">MOTIVATION</a></li>
+		 </ul>
+	 </div>
+	 
+h1 {
+  color: black;
+}
+
+
+
